@@ -715,7 +715,7 @@ html[data-theme="christmas"] .aboutCard {
 /* Services cards */
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 16px;
 }
 
@@ -753,6 +753,12 @@ html[data-theme="christmas"] .card {
   margin-top: 12px !important;
   color: var(--muted-2);
   font-size: 13px;
+}
+
+/* Disclaimer (used below Services) */
+.disclaimer {
+  margin-top: 18px;
+  max-width: 72ch;
 }
 
 /* Testimonials */
