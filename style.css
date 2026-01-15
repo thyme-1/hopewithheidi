@@ -688,7 +688,8 @@ html[data-theme="christmas"] .btn--ghost:hover {
 /* About photo (near the About intro) */
 .aboutTop {
   display: grid;
-  grid-template-columns: minmax(180px, 260px) 1fr;
+  /* Slightly smaller, more subtle photo on desktop */
+  grid-template-columns: minmax(160px, 220px) 1fr;
   gap: 18px;
   align-items: center;
   margin-bottom: 26px;
