@@ -174,7 +174,8 @@ html[data-theme="christmas"] .decor--corner {
 
 /* Heart shapes (subtle, calm, decorative only) */
 .decor .heart {
-  filter: blur(0.2px);
+  /* Slightly crisper silhouette for visibility on white */
+  filter: blur(0.1px);
 }
 
 .decor--tl {
