@@ -162,14 +162,19 @@ html[data-theme="christmas"] ::selection {
 .decor--corner {
   width: clamp(210px, 26vw, 340px);
   /* Reduced dominance (calm background only) */
-  opacity: 0.14;
+  opacity: 0.12;
   mix-blend-mode: normal;
 }
 
 html[data-theme="christmas"] .decor--corner {
-  opacity: 0.12;
+  opacity: 0.11;
   mix-blend-mode: normal;
   filter: none;
+}
+
+/* Heart shapes (subtle, calm, decorative only) */
+.decor .heart {
+  filter: blur(0.2px);
 }
 
 .decor--tl {
